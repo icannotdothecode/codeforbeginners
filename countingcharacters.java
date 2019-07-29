@@ -5,7 +5,7 @@ public class countingcharacters {
 			throw new IllegalArgumentException("String is required! (eg: java countingcharacters.java Vishal Singh)");
 		}
 		for (String test : args) {
-            System.out.println("Note to user: Each space starts a new word/instance.")
+            System.out.println("Note to user: Each space starts a new word/instance.");
             count(test);
         }
 	}
