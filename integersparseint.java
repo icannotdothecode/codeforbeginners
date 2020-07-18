@@ -4,7 +4,7 @@ public class integersparseint {
 			throw new IllegalArgumentException("Numbers are required! Command should be followed by 'a b' to assign numbers. (eg: java integersparseint.java 2 3)");
 		}
 		int a = Integer.parseInt(args[0]);
-        int b = Integer.parseInt(args[1]);
+        	int b = Integer.parseInt(args[1]);
 		int sum = a + b;
 		int mult = a * b;
 		int div = a / b;
